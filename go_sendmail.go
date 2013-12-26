@@ -52,7 +52,7 @@ func SendEmail(email *Email) error {
 }
 
 func main() {
-	em := NewEmail("314469165@qq.com;2513612251@qq.com", "test", "this is a test email by useing go")
+	em := NewEmail("3146916511@qq.com;25162251@qq.com", "test", "this is a test email by useing go")
 
 	err := SendEmail(em)
 
